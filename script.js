@@ -26,34 +26,34 @@ async function Weather(city){
                     
                     
                     if (data.weather[0].icon == "11d"){
-                        image.src = "/images/day/thunder.png";
+                        image.src = "images/day/thunder.png";
                     }
                     else if (data.weather[0].icon == "09d"){
-                        image.src = "/images/day/shower.png";
+                        image.src = "images/day/shower.png";
                     }
                     else if (data.weather[0].icon == "10d"){
-                        image.src = "/images/day/rain.png";
+                        image.src = "images/day/rain.png";
                     }
                     else if (data.weather[0].icon == "13d"){
-                        image.src = "/images/day/snow.png";
+                        image.src = "images/day/snow.png";
                     }
                     else if (data.weather[0].icon == "50d"){
-                        image.src = "/images/day/mist.png";
+                        image.src = "images/day/mist.png";
                     }
                     else if (data.weather[0].icon == "01d"){
-                        image.src = "/images/day/clear.png";
+                        image.src = "images/day/clear.png";
                     }
                     else if (data.weather[0].icon == "02d"){
-                        image.src = "/images/day/fewclouds.png";
+                        image.src = "images/day/fewclouds.png";
                     }
                     else if (data.weather[0].icon == "03d" || "03n"){
-                        image.src = "/images/day/scarted.png";
+                        image.src = "images/day/scarted.png";
                     }
                     else if (data.weather[0].icon == "04d" || "04n"){
-                        image.src = "/images/day/broken.png";
+                        image.src = "images/day/broken.png";
                     }
                     else if (data.weather[0].icon == "02d"){
-                        image.src = "/images/day/fewclouds.png";
+                        image.src = "images/day/fewclouds.png";
                     }
                    
                     // document.querySelector(".cont").style.display = "block"
